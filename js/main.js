@@ -68,6 +68,7 @@ $(window).on('load', function () {
     $('#video-bg').YTPlayer({
         fitToBackground: true,
         repeat: true,
+        conrols: 0,
         videoId: 'vrV-fSgVga4' //Set Your Youtube Video ID
     });
 
